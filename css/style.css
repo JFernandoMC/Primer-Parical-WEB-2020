@@ -1,3 +1,23 @@
+* {
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+h2, p { margin: 0; padding: 0 }
+
+header, section, footer {
+	overflow: hidden;
+	width: 100%;
+}
+header nav, section article, footer .piePage
+{
+margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+}
+h2 {
+	padding: 0 0 0 1em;
+}
 .navbar{
 	color: gray;
 	width: 90%;
@@ -7,3 +27,112 @@
 	display: flex;
 	padding-left: 0;
 }
+section article .contenedor1 .infoObsequiarte, .formTienda {
+	display: inline-block;
+	margin: 0 -4px;
+	width: 50%;
+}
+section article .contenedor1 .infoObsequiarte h1 {
+	padding: 0 0 .3em 0
+}
+section div .banner {
+	width: 600px;
+}
+section article .contenedor1 .infoObsequiarte, .formTienda {
+	display: inline-block;
+	margin: 0 -4px;
+	width: 50%;
+}
+
+section article .contenedor1 .infoObsequiarte h1 {
+	padding: 0 0 .2em 0
+}
+section article .contenedor1 .infoObsequiarte .txtInfoLab {
+	font-size: 20px;
+	line-height: 18px;
+	margin: 0 0 0 5px;
+	padding: 0 0 2em 0;
+}
+html{
+	position: relative;
+}
+
+header nav {
+	align-items: center;
+	display: flex;
+	padding: 1em 0
+}
+
+section article .contenedor1 .infoObsequiarte .banner {
+	width: 300px;
+}
+
+section article .contenedor1 .formTienda .camposTxt{
+	margin: 1em 0;
+	display: block;
+}
+
+section article .contenedor2 .bloques {
+	display: flex;
+	align-items: top;
+	position: absolute;
+	padding: 0 0 4em 0;
+}
+.bloque1, .bloque2, .bloque3, .bloque4 {
+	background-color: #f2f2f2;
+	border-radius: 12px;
+	display: inline-block;
+	margin: 0 25px 0 0;
+	overflow: hidden;
+	width: 23%;
+}
+
+.bloque4 {
+	margin: 0;
+}
+.txtBloque {
+	overflow: hidden;
+	padding: 1em;
+	line-height: 16px;
+}
+.icon-mas{
+	float: right;
+	margin: .5em 0 0 0;
+	width: 30px;
+}
+.añadir{
+	margin: .5em 0 0 0;
+	bottom: 0
+	}
+@media only screen and (max-width: 880px) {
+
+	#infoTienda{
+    	width: 100%;
+    	display: block;
+    	margin: 0 0 0 .5px;
+  	}
+
+  	section article .contenedor2 .bloques .bloque1 .bloque1 {
+  		width: 100%;
+  		display: block;
+  		margin: 0;
+  	}
+
+  	.bloque2, .bloque3, .bloque4 {
+  		width: 100%;
+  		display: block;
+  		margin: 0;
+  		margin: 0 0 2em 0;
+  	}
+
+  	#bloqueAjax{
+  		display: block;
+  	}
+
+  	#uno {
+  		display: block;
+  		width: 100%;
+  		margin: 0 0 2em 0;
+  	}
+}
+
