@@ -1,0 +1,9 @@
+.navbar{
+	color: gray;
+	width: 90%;
+}
+.nav{
+	align-items: left;
+	display: flex;
+	padding-left: 0;
+}
